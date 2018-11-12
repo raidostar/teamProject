@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#Product__board {
+	margin-bottom: 30px;
+	margin-top: 50px;
+	width: 1300px;
+	height: auto;
+	vertical-align: middle;
+	margin: 0 auto;
+	color: black;
+	border-radius: 30px;
+	background: #ffeb3b3d;
+}
+
+#Product__board1 {
+	width: 15%;
+	height: 200px;
+	padding: 0px;
+	float: left;
+	vertical-align: middle;
+}
+
+#Product__board2 {
+	width: 80%;
+	height: 300px;
+	vertical-align: middle;
+	float: right;
+}
+
+.img__size1 {
+	width: 200px;
+	height: 200px;
+}
+div.recipe__board__table1 {
+    height: 100%;
+    width: 100%;
+}
+
+#body_back{
+    background: antiquewhite;
+}

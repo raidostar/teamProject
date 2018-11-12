@@ -1,0 +1,55 @@
+@charset "UTF-8";
+#sendBtn{
+	width: -webkit-fill-available;
+}
+#body__back{
+	background-color: antiquewhite;
+}
+#remote-videos-container{
+    z-index: 500;
+    width: 670px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.screen {
+	position: absolute;
+    width: 670px;
+    height: 500px;
+    border: groove;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+span {
+	width: 660px;
+	height: 60px;
+	color: black;
+	border: 2px solid gray;
+	border-radius: 10px;
+	font-size: 20pt;
+	padding: 5px;
+}
+.container {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 90%;
+	text-align: center;
+}
+.name {
+	background-color: gray;
+	color: white;
+}
+
+#streaming_login{
+	text-align: center;
+}
+#open-room, #join-room{
+	background: #ff9800;
+    color: #fff;
+    margin: 1%;
+    width: auto;
+    border-radius: 10px;
+    height: 40px;
+}

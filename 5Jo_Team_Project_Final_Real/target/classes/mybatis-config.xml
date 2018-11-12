@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<settings>
+      <setting value="NULL" name="jdbcTypeForNull"/>
+   </settings>
+   
+	<typeAliases>
+		<typeAlias type="global.sesoc.team.vo.Member" alias="Member"/>
+		<typeAlias type="global.sesoc.team.vo.Board" alias="Board"/>
+		<typeAlias type="global.sesoc.team.vo.Products" alias="Products"/>
+		<typeAlias type="global.sesoc.team.vo.MovieLike" alias="MovieLike"/>
+		<typeAlias type="global.sesoc.team.vo.RecipeBoard" alias="RecipeBoard"/>
+		<typeAlias type="global.sesoc.team.vo.Table" alias="Table"/>
+		<typeAlias type="global.sesoc.team.vo.Wishlist" alias="Wishlist"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="mappers/memberMapper.xml"/>
+		<mapper resource="mappers/movieBoardMapper.xml"/>
+		<mapper resource="mappers/SpcialProductsMapper.xml"/>
+		<mapper resource="mappers/recipeBoard.xml"/>
+		<mapper resource="mappers/streamMapper.xml"/>
+		<mapper resource="mappers/googleMapMapper.xml"/>
+	</mappers>
+	
+</configuration>

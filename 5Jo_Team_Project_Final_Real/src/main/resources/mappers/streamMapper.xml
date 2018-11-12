@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="global.sesoc.team.dao.StreamMapper">
+	<select id="getRoomContent" parameterType="string" resultType="Table">
+		select userId, message, mdate
+		from message
+		where roomNum = #{roomnum} 
+		order by seq desc
+	</select>
+	
+	<insert id="insertContent" parameterType="Table" >
+		INSERT INTO message
+			VALUES( seq.nextVal
+					, #{message}
+					, #{userId}
+					, #{roomnum}
+					, sysdate)
+	</insert>
+</mapper>

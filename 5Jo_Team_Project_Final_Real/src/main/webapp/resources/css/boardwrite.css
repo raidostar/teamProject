@@ -1,0 +1,97 @@
+p, h1, form, button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.spacer {
+	clear: both;
+	height: 1px;
+}
+
+.myform {
+    width: 65%;
+    height: 40em;
+    padding: 14px;
+}
+
+#stylized {
+	border: solid 2px #FFC107;
+	background: #ffc10766;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#stylized h1 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+
+#stylized p {
+	font-size: 11px;
+	color: #666666;
+	margin-bottom: 20px;
+	border-bottom: solid 2px #FFC107;
+	padding-bottom: 10px;
+}
+
+#stylized label {
+	display: block;
+	font-weight: bold;
+	text-align: right;
+	width: 140px;
+	float: left;
+}
+
+#stylized .small {
+	color: #666666;
+	display: block;
+	font-size: 11px;
+	font-weight: normal;
+	text-align: right;
+	width: 140px;
+	letter-spacing: -1px;
+}
+
+#stylized input {
+	float: left;
+	font-size: 12px;
+	padding: 4px 2px;
+	border: solid 2px #ffc107;
+	color:black;
+	width: 80%;
+	margin: 2px 0 30px 10px;
+	background-color: white;
+	text-align: start;
+}
+
+textarea#Content {
+    width: 80%;
+    height: 360px;
+    float: left;
+    font-size: 12px;
+    padding: 4px 2px;
+    border: solid 2px #ffc107;
+    margin: 2px 0 60px 10px;
+    background-color: white;
+}
+
+#stylized button {
+	clear: both;
+	width: 125px;
+	height: 31px;
+	text-align: center;
+	line-height: 31px;
+	background-color: #FFC107;
+	color: #FFEB3B;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#stylized1 button {
+	width: 125px;
+	text-align: center;
+	background-color: #FFC107;
+	font-weight: bold;
+}
